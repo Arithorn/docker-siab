@@ -5,6 +5,7 @@ services:
     environment:
       - SIAB_SSL=false
       - SIAB_PASSWORD=Test123
+      - SIAB_SERVICE=/:SSH
 #      - SIAB_USERCSS=Reverse
     ports:
       - '4200:4200'
