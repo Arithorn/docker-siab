@@ -1,6 +1,7 @@
 version: '3'
 services:
   siab:
+    restart: always
     image: 'sspreitzer/shellinabox'
     environment:
       - SIAB_SSL=false
